@@ -1,0 +1,155 @@
+body{
+    height: 100%;
+    background-image: url("img/bg_body-min.jpg");
+    background-attachment: fixed;
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg_2{
+    height: 100%;
+    background-image: url("img/bg_body_2-min.jpg");
+    background-attachment: fixed;
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    font-family: 'Kaushan Script', cursive;
+    color: #FFB10D;
+}
+.list-group-item, .list-group-item:hover{
+    background-color: #291d1d;
+    color: #FFB10D;
+}
+.list-group-item.active{
+    color: #291d1d;
+    background-color: #FFB10D;
+    border: none;
+}
+.card{
+    background-color: #291d1d;
+    color: #FFB10D;
+}
+figcaption.figure-caption{
+    color: #FFB10D;
+}
+.presentation{
+    height: 150vh;
+    color: #FFB10D;
+    padding-top: 10%;
+    text-shadow: 1px 1px 10px #000;
+    font-family: 'Kaushan Script', cursive;
+}
+.presentation h1{
+    font-size: 1em;
+    margin-top: 40px;
+}
+.presentation h4{
+    font-size: 0.9em;
+    font-weight: bold;
+}
+.presentation p{
+    font-weight: bold;
+    padding-top: 25px;
+    text-shadow: 1px 1px 5px #000;
+    font-size: 0.8em;
+}
+.qui_sommes_nous{
+    color: #e0e0e0;
+    background-color: #1b1414;
+}
+.qui_sommes_nous ul{
+    list-style-type: none;
+}
+.actions{
+    background-color: #1b1414b3;
+    color: #e0e0e0;
+    display: none;
+}
+.news{
+    background-color: #362727b3;
+    color: #e0e0e0;
+    display: none;
+}
+.gallerie{
+    color: #e0e0e0;
+    background-color: #1b1414;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    display: none;
+}
+.aidez_nous{
+    background-color: #362727b3;
+    color: #e0e0e0;
+    display: none;
+}
+.card-body p{
+    font-size: 0.8em;
+}
+.echos{
+    background-color: #1b1414b3;
+    color: #e0e0e0;
+    display: none;
+}
+.devenir_partenaire{
+    color: #e0e0e0;
+    background-color: #1b1414;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+.contact{
+    color: #e0e0e0;
+    background-color: #291d1d;
+}
+.contact p{
+    padding: 0px;
+    margin: 0px;
+}
+.navbar-brand img{
+    display: none;
+}
+a[href="#echos"], a[href="#aidezNous"], a[href="#gallerie"], a[href="#news"], a[href="#actions"]{
+    display: none;
+}
+
+@media (min-width: 576px) {
+    .presentation{
+        height: 100vh;
+    }
+    .presentation h1{
+        font-size: 1.5em;
+        margin-top: 40px;
+    }
+}
+
+@media (min-width: 768px) {
+    .echos, .aidez_nous, .gallerie, .news, .actions{
+        display: inherit;
+    }
+    a[href="#echos"], a[href="#aidezNous"], a[href="#gallerie"], a[href="#news"], a[href="#actions"]{
+        display: inherit;
+    }
+    .presentation h1{
+        font-size: 2em;
+        margin-top: 20px;
+    }
+    .presentation h4{
+        font-size: 1.5em;
+        margin-top: 20px;
+    }
+    .presentation p{
+        font-size: 1em;
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-brand img{
+        display: flex;
+    }
+}
+
+@media (min-width: 1200px) {
+    
+}
